@@ -12,7 +12,7 @@ var a = (await import("./lib/tictactoe.cjs")).default
 var wibh = moment.tz('Asia/Jakarta').format('HH')
 var wibm = moment.tz('Asia/Jakarta').format('mm')
 var wibs = moment.tz('Asia/Jakarta').format('ss')
-var wktuwib = `${wibh} Jᴀᴍ ${wibm} Mᴇɴɪᴛ ${wibs} Dᴇᴛɪᴋ`
+var wktuwib = `${wibh} Jam ${wibm} Menit ${wibs} Detik`
 var d = new Date(new Date + 3600000)
 var locale = 'id'
 // d.getTimeZoneOffset()
@@ -30,17 +30,17 @@ var date = d.toLocaleDateString(locale, {
 })
 global.TicTacToe = a
 global.moment = moment
-global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.work = `*Sᴜᴄᴄᴇꜱꜱ Fᴇᴛᴄʜɪɴɢ Dᴀᴛᴀ*\n*Sᴇɴᴅɪɴɢ Fɪʟᴇ...*`
-global.error = `*Cᴀɴ\'ᴛ Fᴇᴛᴄʜɪɴɢ Dᴀᴛᴀ*`
-global.thumb = fs.readFileSync("./src/baba.jpg")
-global.profil = fs.readFileSync("./src/botstyle.png")
+global.botdate = `⫹⫺ Date: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
+global.bottime = `Time: ${wktuwib}`
+global.work = `*Sukses mendapatkan data*\n*Mengirim file...*`
+global.error = `*Gagal mendapatkan data!*`
+global.thumb = fs.readFileSync("./src/logo.jpg")
+global.profil = fs.readFileSync("./src/logo.jpg")
 global.zippy = (await import('./lib/zippy.cjs')).zippy
 global.tiny = (await import('./lib/tiny.cjs')).default
-global.gc = "https://chat.whatsapp.com/KihEAYjKr04LI4uUrbiiip"
-global.gh = "https://github.com/botstylee"
-global.yt = "https://youtube.com/channel/UCrNO1yUYW0i3xsJp4NGBh4Q"
+global.gc = "https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL"
+global.gh = "https://github.com/BOTCAHX"
+global.yt = "https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL"
 function ucapan() {
 	var time = moment.tz('Asia/Jakarta').format('HH')
 	var res
@@ -115,10 +115,10 @@ global.log = function log() {
 	console.log.apply(console, args);
 }
 global.owner = [
-	//  ['6281234288573'],
-	//['12546153210'],
-	//['62895368900456'],
-	['62895368900456', 'Benniismael', true]
+	//  ['6282221792667'],
+	//['6282221792667'],
+	//['6282221792667'],
+	['6282221792667', 'Xd', true]
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -136,10 +136,10 @@ global.APIKeys = { // APIKey Here
 	'https://ghostui-api.herokuapp.com/': 'OC2eTK'
 }
 // Sticker WM
-global.packname = 'ig : Beni_230\'Benniismael'
-global.author = 'BENNIISMAEL & GHOST'
-global.wm = 'BOTSTYLEE'
-global.nomorown = '62895368900456'
+global.packname = 'ig : prm2.0\'TioXd'
+global.author = 'TioXd'
+global.wm = 'BotWa'
+global.nomorown = '6282221792667'
 global.multiplier = 69 // The higher, The harder levelup
 global.titlebot = `⫹⫺ RPG BOT Whatsapp | By ${author}`
 global.rpg = {
